@@ -6,6 +6,19 @@ Because we are doing this headless, most of the setup will be via the command li
 
 You'll need: a Raspberry Pi Zero W, or a Raspberry Pi 3b+ or 4, a cable (micro USB if you have a Pi Zero or 3b+, USB C if you have a 4); a micro sd card (at least 8gb); a way to connect the micro sd card to your laptop (USB dongle or SD Card adaptor); a laptop; your home wifi (that you own).
 
+##### Table of Contents  
+[Preparing the Micro SD Card](##Preparing the Micro SD Card)   
+[First SSH connection, changing default user](##First SSH connection and changing default user)   
+[Optional Steps](##Optional Steps (ranked in order of importance))   
+[Loading a GitHub and creating SSH Keys for your Pi](###Loading a GitHub and creating SSH Keys for your Pi)   
+[Setup a Script to Update your Pi nightly](###Setup a Script to Update your Pi nightly)   
+[Setting up SSH keys to Login to the Pi (and disabling password authentication)](###Setting up SSH keys to Login to the Pi (and disabling password authentication))  
+[Setting up a Firewall and Fail2Ban](###Setting up a Firewall and Fail2Ban)
+[Setting a Static IP Address for the PI](###Setting a Static IP Address for the PI)
+[Setup Port Forwarding with your Router](###Setup Port Forwarding with your Router)
+[Useful tidbits of knowledge](###Useful tidbits of knowledge)
+[Enable run of script as sudo without password](####Enable run of script as sudo without password)
+
 ## Preparing the Micro SD Card
 In this section we will load the operating system onto the Micro SD Card, and set some default parameters for the first bootup of the Pi so that it will connect to your WiFi and allow an SSh connection so that we can connect to the Pi over the WiFI and give it commands.
 
@@ -26,7 +39,7 @@ Now, create a new file named wpa_supplicant.conf, and populate it with the name 
 
 From here, you're set to insert the micro sd card into the Raspberry Pi and boot it up for the first time.
 
-## First SSH connection, changing default user
+## First SSH connection and changing default user
 In this section you will connect to the Raspberry Pi for the first time and fix a big security vulnerability by deleting the default user, pi.
 
 First, you'll need to download an ssh client that will allow you to connect to the Pi--I use Moba Xterm but there are many options here. Here's Moba Xterm's site: https://mobaxterm.mobatek.net/. You could also use a command line tool like git bash for windows.
