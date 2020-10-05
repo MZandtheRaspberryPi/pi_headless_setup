@@ -4,7 +4,7 @@ This is a guide to setting up a Raspberry Pi without a keyboard, mouse, or displ
 
 Because we are doing this headless, most of the setup will be via the command line. This will teach a lot about the Unix operating system and command line.
 
-You'll need: a Raspberry Pi Zero W, or a Raspberry Pi 3b+ or 4, a cable (micro USB if you have a Pi Zero or 3b+, USB C if you have a 4); a micro sd card (at least 8gb); a way to connect the micro sd card to your laptop (USB dongle or SD Card adaptor); a laptop; your home wifi (that you own).
+You'll need: a Raspberry Pi Zero W, or a Raspberry Pi 3b+ or 4, a cable (micro USB if you have a Pi Zero or 3b+, USB C if you have a 4); a micro sd card (8gb or more is usually good); a way to connect the micro sd card to your laptop (USB dongle or SD Card adaptor); a laptop; your home wifi (that you own).
 
 ##### Table of Contents  
 [Preparing the Micro SD Card](https://github.com/MZandtheRaspberryPi/pi_headless_setup#preparing-the-micro-sd-card)   
