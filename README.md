@@ -77,7 +77,7 @@ Now, let's make it so that the pi boots to the command line, this will save us s
 sudo raspi-config
 ```
 
-Using arrow keys and enter, navigate to boot options, Desktop / CLI, and select console. This will ensure the Pi boots without a GUI or a default user.
+Using arrow keys and enter, navigate to boot options, Desktop / CLI, and select console. This will ensure the Pi boots without a GUI or a default user. I would also ensure your wifi country is set, and also ensure your timezone is set.
 
 From here restart the pi by entering the below command. This will log you out and you'll have to start a new session after weighting 10 seconds or so by double clicking on your custom session in Moba Xterm.
 ```
