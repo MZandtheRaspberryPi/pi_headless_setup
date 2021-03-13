@@ -204,7 +204,7 @@ Hit OK and confirm that it logs you in and you see something like "Authenticatin
 
 Edit the sshd_config file
 ```
-sudo chmod 644 ~/.ssh/authorized_keys
+sudo nano /etc/ssh/sshd_config
 ```
 
 And change the below lines to read as below:
