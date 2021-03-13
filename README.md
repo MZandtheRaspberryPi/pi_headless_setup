@@ -12,12 +12,12 @@ You'll need: a Raspberry Pi Zero W, or a Raspberry Pi 3b+ or 4, a cable (micro U
 [Optional Steps](https://github.com/MZandtheRaspberryPi/pi_headless_setup#optional-steps-ranked-in-order-of-importance)   
 [Loading a GitHub and creating SSH Keys for your Pi](https://github.com/MZandtheRaspberryPi/pi_headless_setup#loading-a-github-and-creating-ssh-keys-for-your-pi)   
 [Setup a Script to Update your Pi nightly](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setup-a-script-to-update-your-pi-nightly)   
-[Setting up SSH keys to Login to the Pi (and disabling password authentication)](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-up-ssh-keys-to-login-to-the-pi-and-disabling-password-authentication)  
-[Setting up a Firewall and Fail2Ban](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-up-a-firewall-and-fail2ban)
-[Setting a Static IP Address for the PI](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-a-static-ip-address-for-the-pi)
-[Setup Port Forwarding with your Router](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setup-port-forwarding-with-your-router)
-[Useful tidbits of knowledge](https://github.com/MZandtheRaspberryPi/pi_headless_setup#useful-tidbits-of-knowledge)
-[Enable run of script as sudo without password](https://github.com/MZandtheRaspberryPi/pi_headless_setup#enable-run-of-script-as-sudo-without-password)
+[Setting up SSH keys to Login to the Pi (and disabling password authentication)](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-up-ssh-keys-to-login-to-the-pi-and-disabling-password-authentication)   
+[Setting up a Firewall and Fail2Ban](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-up-a-firewall-and-fail2ban)    
+[Setting a Static IP Address for the PI](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-a-static-ip-address-for-the-pi)    
+[Setup Port Forwarding with your Router](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setup-port-forwarding-with-your-router)    
+[Useful tidbits of knowledge](https://github.com/MZandtheRaspberryPi/pi_headless_setup#useful-tidbits-of-knowledge)    
+[Enable run of script as sudo without password](https://github.com/MZandtheRaspberryPi/pi_headless_setup#enable-run-of-script-as-sudo-without-password)    
 
 ## Preparing the Micro SD Card
 In this section we will load the operating system onto the Micro SD Card, and set some default parameters for the first bootup of the Pi so that it will connect to your WiFi and allow an SSh connection so that we can connect to the Pi over the WiFI and give it commands.
