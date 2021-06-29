@@ -17,7 +17,8 @@ You'll need: a Raspberry Pi Zero W, or a Raspberry Pi 3b+ or 4, a cable (micro U
 [Setting a Static IP Address for the PI](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-a-static-ip-address-for-the-pi)    
 [Setup Port Forwarding with your Router](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setup-port-forwarding-with-your-router)    
 [Useful tidbits of knowledge](https://github.com/MZandtheRaspberryPi/pi_headless_setup#useful-tidbits-of-knowledge)    
-[Enable run of script as sudo without password](https://github.com/MZandtheRaspberryPi/pi_headless_setup#enable-run-of-script-as-sudo-without-password)    
+[Enable run of script as sudo without password](https://github.com/MZandtheRaspberryPi/pi_headless_setup#enable-run-of-script-as-sudo-without-password)   
+[Setting up Ubuntu](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-up-ubuntu)
 
 ## Preparing the Micro SD Card
 In this section we will load the operating system onto the Micro SD Card, and set some default parameters for the first bootup of the Pi so that it will connect to your WiFi and allow an SSh connection so that we can connect to the Pi over the WiFI and give it commands.
@@ -321,3 +322,6 @@ Put the below line in the file at the end. This will let you run the listed scri
 ```
 adam ALL = NOPASSWD: /home/adam/my_repo/update.sh,/home/adam/my_repo/auto_watch.py
 ```
+
+#### Setting Up Ubuntu
+Ubuntu folks wrote a great guide [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview). 
