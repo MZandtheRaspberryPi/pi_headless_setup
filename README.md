@@ -7,9 +7,9 @@ Because we are doing this headless, most of the setup will be via the command li
 You'll need: a Raspberry Pi Zero W, or a Raspberry Pi 3b+ or 4, a cable (micro USB if you have a Pi Zero or 3b+, USB C if you have a 4); a micro sd card (8gb or more is usually good); a way to connect the micro sd card to your laptop (USB dongle or SD Card adaptor); a laptop; your home wifi (that you own).
 
 ##### Table of Contents  
-[Preparing the Micro SD Card](https://github.com/MZandtheRaspberryPi/pi_headless_setup#preparing-the-micro-sd-card)   
-[First SSH connection, changing default user](https://github.com/MZandtheRaspberryPi/pi_headless_setup#first-ssh-connection-and-changing-default-user)   
-[Optional Steps](https://github.com/MZandtheRaspberryPi/pi_headless_setup#optional-steps-ranked-in-order-of-importance)   
+[Preparing the Micro SD Card](#preparing-the-micro-sd-card)   
+[First SSH connection, changing default user](#first-ssh-connection-and-changing-default-user)   
+[Optional Steps](#optional-steps-ranked-in-order-of-importance)   
 [Loading a GitHub and creating SSH Keys for your Pi](https://github.com/MZandtheRaspberryPi/pi_headless_setup#loading-a-github-and-creating-ssh-keys-for-your-pi)   
 [Setup a Script to Update your Pi nightly](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setup-a-script-to-update-your-pi-nightly)   
 [Setting up SSH keys to Login to the Pi (and disabling password authentication)](https://github.com/MZandtheRaspberryPi/pi_headless_setup#setting-up-ssh-keys-to-login-to-the-pi-and-disabling-password-authentication)   
