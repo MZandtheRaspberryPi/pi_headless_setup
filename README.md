@@ -324,4 +324,4 @@ adam ALL = NOPASSWD: /home/adam/my_repo/update.sh,/home/adam/my_repo/auto_watch.
 ```
 
 #### Setting Up Ubuntu
-Ubuntu folks wrote a great guide [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview). Stack overflow for getting wifi working is [here](https://raspberrypi.stackexchange.com/questions/111722/rpi-4-running-ubuntu-server-20-04-cant-connect-to-wifi).
+Ubuntu folks wrote a great guide [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview). Stack overflow for getting wifi working is [here](https://raspberrypi.stackexchange.com/questions/111722/rpi-4-running-ubuntu-server-20-04-cant-connect-to-wifi). The key bits to watch out for are to add something to user data to reboot after cloud init, to make sure file doesn't use tabs, it uses spaces (notepad++ will use tabs if hit enter), and then to wait 5-10minutes after powering up pi to allow cloud init to run and then to allow the reboot.   
