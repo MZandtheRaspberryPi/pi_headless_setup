@@ -324,4 +324,4 @@ adam ALL = NOPASSWD: /home/adam/my_repo/update.sh,/home/adam/my_repo/auto_watch.
 ```
 
 #### Setting Up Ubuntu
-Ubuntu folks wrote a great guide [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview). 
+Ubuntu folks wrote a great guide [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview). Stack overflow for getting wifi working is [here](https://raspberrypi.stackexchange.com/questions/111722/rpi-4-running-ubuntu-server-20-04-cant-connect-to-wifi).
